@@ -358,8 +358,8 @@ public:
 		animationState = 0;
 		objectGroup = "player";
 
-		position.x = 64.0f;
-		position.y = 208.0f;
+		position.x = 280.0f;
+		position.y = 400.0f;
 
 		collisionBoxSize.w = collisionBoxSize.h = 64.0f;
 		/*rotation = globalRotation;*/
