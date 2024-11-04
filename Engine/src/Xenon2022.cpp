@@ -362,7 +362,6 @@ public:
 		position.y = 400.0f;
 
 		collisionBoxSize.w = collisionBoxSize.h = 64.0f;
-		/*rotation = globalRotation;*/
 		rotation = *GetGlobalRotation();
 	}
 
