@@ -1,0 +1,10 @@
+^D:\PROGRAMMING\TESTENGINE\TESTENGINE\BOX2D-MAIN\UNIT-TEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Programming/TestEngine/TestEngine/box2d-main -BD:/Programming/TestEngine/TestEngine/box2d-main/build --check-stamp-file D:/Programming/TestEngine/TestEngine/box2d-main/build/unit-test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

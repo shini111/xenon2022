@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2128,5): warning : The referenced project 'D:\Programming\TestEngine\TestEngine\box2d-main\build\ZERO_CHECK.vcxproj' does not exist.
+  Building Custom Rule D:/Programming/TestEngine/TestEngine/box2d-main/src/CMakeLists.txt
+  CMake is re-running because D:/Programming/TestEngine/TestEngine/box2d-main/build/src/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "D:/Programming/TestEngine/TestEngine/box2d-main" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(249,5): error MSB8066: Custom build for 'D:\Programming\TestEngine\TestEngine\box2d-main\src\CMakeLists.txt' exited with code 1.

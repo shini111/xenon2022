@@ -1,0 +1,6 @@
+﻿  1>Checking Build System
+  CMake is re-running because D:/Programming/TestEngine/TestEngine/box2d-main/build/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "D:/Programming/TestEngine/TestEngine/box2d-main" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.
+  The system cannot find the batch label specified - VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(232,5): error MSB8066: Custom build for 'D:\Programming\TestEngine\TestEngine\box2d-main\build\CMakeFiles\e33cac8b31c6624417b53028dc6144f8\generate.stamp.rule' exited with code 1.
