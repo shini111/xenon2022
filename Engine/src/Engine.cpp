@@ -424,7 +424,10 @@ namespace GameEngine {
 		window = SDL_CreateWindow(windowSettings.windowName, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, windowSettings.windowWidth, windowSettings.windowHeight, SDL_WINDOW_OPENGL);
 		renderTarget = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 
+
 		Update();
+
+
 	}
 
 	void Engine::setLevel(GameLevel level)
@@ -435,17 +438,6 @@ namespace GameEngine {
 	void Engine::print(std::string printText)
 	{
 		std::cout << printText << std::endl;
-	}
-
-	void Engine::printFloat(float printFloat)
-	{
-		std::cout << printFloat << std::endl;
-
-	}
-
-	void Engine::printFloatPointer(float* printFloatPointer)
-	{
-		std::cout << printFloatPointer << std::endl;
 	}
 
 	GameLevel& Engine::getLevel()

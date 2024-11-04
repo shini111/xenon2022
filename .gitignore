@@ -1,6 +1,7 @@
 /.vs
-/bin
-/bin-int
+/Engine/x64
+/x64
+/Xenon2022/x64
 
 # Prerequisites
 *.d

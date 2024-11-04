@@ -8,11 +8,6 @@
 #include <SDL.h>
 #include <box2d.h>
 
-#include "Core.h"
-
-#include "EntryPoint.h"
-
-
 #include "Animator.h"
 #include "GameLevel.h"
 #include "GameObjects.h"
@@ -52,7 +47,7 @@ public:
 };
 
 namespace GameEngine {
-	class ENGINE_API Engine
+	class Engine
 	{
 	public:
 		float deltaTime = 0.0f;
@@ -60,15 +55,9 @@ namespace GameEngine {
 		void setLevel(GameLevel level);
 		GameLevel& getLevel();
 		void print(std::string printText);
-		void printFloat(float printFloat);
-		void printFloatPointer(float* printFloatPointer);
+
 		void Update();
 		void Initialize(GameWindow windowSettings);
-
-
-		//Defined in client
-		Application* CreateApplication();
-
 	private:
 		GameLevel mainLevel;
 		GameWindow windowDisplay;
@@ -76,4 +65,5 @@ namespace GameEngine {
 		int currentTime = 0;
 
 	};
+
 }

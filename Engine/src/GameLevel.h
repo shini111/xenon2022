@@ -15,7 +15,7 @@ public:
 		horizontal,
 	};
 
-	int scrollingDirection = vertical;
+	int scrollingDirection = horizontal;
 
 	struct
 	{

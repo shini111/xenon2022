@@ -112,7 +112,7 @@ public:
 
 		objectGroup = "bullet";
 
-// 		rotation = globalRotation;
+		// 		rotation = globalRotation;
 		rotation = *GetGlobalRotation();
 	}
 
@@ -352,8 +352,8 @@ public:
 
 		movementSpeed = 200.0f;
 
-		bulletOffset.x = 64;
-		bulletOffset.y = 24;
+		bulletOffset.x = 24;
+		bulletOffset.y = 0;
 
 		animationState = 0;
 		objectGroup = "player";
